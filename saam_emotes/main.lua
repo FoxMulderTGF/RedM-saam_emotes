@@ -40,7 +40,7 @@ Citizen.CreateThread(function()
             if 
                 IsControlPressed(1, 0xD9D0E1C0)
             then
-                ClearPedTasksImmidiately(player);
+                ClearPedTasks(player);
                 status = false
             end
         end
